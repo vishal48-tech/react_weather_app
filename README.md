@@ -1,5 +1,7 @@
 # Hosting a Project in Localhost
 
+First get your own api key by sign up in weatherapi.com and use it in fetch request.
+
 To host a project in localhost, you need to follow these steps:
 1. **Open Command Prompt (CMD)**: You can do this by searching for "cmd" in the Windows search bar and clicking on the Command Prompt application.
 2. **Navigate to Your Project Directory**: Use the `cd` command to navigate to your project directory. For example, if your project is in a folder named "my-project" on your desktop, you would type `cd Desktop\my-project` and press Enter.
