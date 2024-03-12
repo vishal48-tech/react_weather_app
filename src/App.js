@@ -29,7 +29,7 @@ const App = () => {
         const address = response.data.address;
         locationName = address.state_district.includes('District') ? address.state_district.replace(' District', '') : address.state_district;
         setSearch(locationName);
-        weatherapi = await axios.get(`https://api.weatherapi.com/v1/current.json?key={YOUR_API_KEY}&aqi=no&q=${locationName}`);
+        weatherapi = await axios.get(`https://api.weatherapi.com/v1/current.json?key=61dfb61c8ab64b2aad7101226240703&aqi=no&q=${locationName}`);
       } catch (err) {
         setError(true);
       } finally {
@@ -59,7 +59,7 @@ const App = () => {
 
       const options = {
         method: 'GET',
-        url: `https://api.weatherapi.com/v1/current.json?key={YOUR_API_KEY}&aqi=no&q=${search}`,
+        url: `https://api.weatherapi.com/v1/current.json?key=61dfb61c8ab64b2aad7101226240703&aqi=no&q=${search}`,
       };
 
       try {
