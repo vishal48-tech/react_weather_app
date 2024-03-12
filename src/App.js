@@ -51,7 +51,7 @@ const App = () => {
   }, []);
 
   const handleSubmit = async (e = 1) => {
-    if (e) e.preventDefault();
+    if (e !== 1) e.preventDefault();
     if (search == "") {
       alert('done');
     } else {
